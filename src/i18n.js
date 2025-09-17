@@ -13,6 +13,10 @@ const resources = {
       search: "Enter your address",
       find: "Find Food",
       login: "Login",
+
+      // Section texts
+      cardTitle: "Greys Vage",
+      cardDays: "6 Days Remaining",
     },
   },
   uz: {
@@ -24,6 +28,10 @@ const resources = {
       search: "Manzilingizni kiriting",
       find: "Taom topish",
       login: "Kirish",
+
+      // Section texts
+      cardTitle: "Greys Vage",
+      cardDays: "6 kun qoldi",
     },
   },
   ru: {
@@ -35,12 +43,16 @@ const resources = {
       search: "Введите ваш адрес",
       find: "Найти еду",
       login: "Войти",
+
+      // Section texts
+      cardTitle: "Грейс Ваг",
+      cardDays: "Осталось 6 дней",
     },
   },
 };
 
 i18n
-  .use(LanguageDetector) 
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
