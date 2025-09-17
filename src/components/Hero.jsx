@@ -33,13 +33,13 @@ const Hero = () => {
                 className="flex-1 outline-none"
               />
             </div>
-            <button className="bg-orange-500 text-white px-6 py-3 flex items-center gap-2 font-medium">
+            <button className="bg-orange-500 text-white px-6 py-3 flex items-center gap-2 font-medium w-[200px]">
               <Search />
               {t("findFood")}
             </button>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center m-[30px]">
           <img
             src={img}
             alt="Food"

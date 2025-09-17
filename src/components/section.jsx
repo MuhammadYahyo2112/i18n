@@ -6,7 +6,7 @@ const Section = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex gap-[25px] p-[50px]">
+    <div className="flex gap-[25px] p-[50px] justify-center">
       <div className="flex flex-col gap-[5px]">
         <img src={img2} alt={t("cardTitle")} />
         <h3>{t("cardTitle")}</h3>
