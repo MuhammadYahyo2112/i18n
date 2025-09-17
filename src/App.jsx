@@ -1,21 +1,13 @@
 import React from 'react'
-import img from './assets/img.svg'
+import Header from './components/Header'
+import Hero from './components/Hero'
+
 
 const App = () => {
   return (
     <>
-    <header>
-      <div>
-        <img src={img} alt="" />
-
-        <select>
-          <option value="">English</option>
-          <option value="">Russia</option>
-          <option value="">Uzbek</option>
-        </select>
-      </div>
-
-    </header>
+    <Header/>
+    <Hero/>
     </>
   )
 }
