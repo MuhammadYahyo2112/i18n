@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="container w-[85%] mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         <div className="text-center md:text-left max-w-xl">
           <h1 className="text-5xl font-bold text-white mb-4">
-            {t("areYouStarving")}
+            {t("title")}
           </h1>
           <p className="text-white text-lg mb-8">
             {t("subText")}
@@ -43,7 +43,7 @@ const Hero = () => {
           <img
             src={img}
             alt="Food"
-            className="max-w-sm rounded-full shadow-lg"
+            className="relative top-16"
           />
         </div>
       </div>
