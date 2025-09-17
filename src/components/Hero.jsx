@@ -14,7 +14,7 @@ const Hero = () => {
             {t("title")}
           </h1>
           <p className="text-white text-lg mb-8">
-            {t("subText")}
+            {t("subtitle")}
           </p>
           <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row items-center overflow-hidden">
             <div className="flex w-full md:w-auto">

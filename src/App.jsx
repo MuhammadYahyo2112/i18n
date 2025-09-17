@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Section from './components/section'
-
+import Section from './components/Section'
+import Section2 from './components/Section2'
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
     <Header/>
     <Hero/>
     <Section/>
+    <Section2 />
     </>
   )
 }

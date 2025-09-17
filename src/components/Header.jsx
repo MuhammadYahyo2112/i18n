@@ -27,7 +27,7 @@ const Header = () => {
 
             <button className="btn btn-warning text-white flex gap-1 items-center">
               <Search />
-              <p>{t("searchFood")}</p>
+              <p>{t("find")}</p>
             </button>
 
             <button className="btn btn-warning text-white flex gap-1 items-center">
