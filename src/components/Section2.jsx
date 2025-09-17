@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 const section2 = () => {
       const { t } = useTranslation();
   return (
-    <div className='bg-[linear-gradient(180deg,rgba(255,206,103,0.22)_-42.47%,rgba(253,237,202,0)_100%)]'>
+    <div className=' mt-20 bg-[linear-gradient(180deg,rgba(255,206,103,0.22)_-42.47%,rgba(253,237,202,0)_100%)]'>
         <h1 className='text-[#F17228] text-center font-bold text-[43px]'>  {t("title")}</h1>
         <div className='flex flex-wrap justify-center gap-10 py-20'>
             <div className='w-[350px]'>
